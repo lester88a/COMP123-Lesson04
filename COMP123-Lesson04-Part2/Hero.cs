@@ -26,7 +26,7 @@ namespace COMP123_Lesson04_Part2
         //public methods
         public void doesGoodThings()
         {
-            Console.WriteLine("Doin' good thins....YEAH!");
+            Console.WriteLine("Doin' good things....YEAH!");
         }
     }
 }

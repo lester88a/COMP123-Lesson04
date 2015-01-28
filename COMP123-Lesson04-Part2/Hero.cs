@@ -17,7 +17,7 @@ namespace COMP123_Lesson04_Part2
         //constructor++++++++++++++++++++++++++++++++++++++++++++
         public Hero(string name,int health, int smarts, string gender):base(name,health,smarts,gender)
         {
-           
+            this.showProfile();
         }
 
         //public methods

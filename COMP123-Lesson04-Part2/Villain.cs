@@ -15,8 +15,7 @@ namespace COMP123_Lesson04_Part2
         public Villain(string name, int health, int smarts, string gender):
             base(name,health,smarts,gender)
         {
-            
-
+            this.showProfile();
         }
 
         //public method+++++++++++++++++++++

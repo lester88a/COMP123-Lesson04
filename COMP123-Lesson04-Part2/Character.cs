@@ -28,10 +28,12 @@ namespace COMP123_Lesson04_Part2
         //protected medthods+++++++++++++++++++++
         protected void showProfile()
         {
+            Console.WriteLine("+++++++++++++++++++");
             Console.WriteLine("Name: {0}",this.name);
             Console.WriteLine("Health: {0}", this.health);
             Console.WriteLine("Smarts: {0}", this.smarts);
             Console.WriteLine("Gender: {0}", this.gender);
+            Console.WriteLine("+++++++++++++++++++");
 
         }
 

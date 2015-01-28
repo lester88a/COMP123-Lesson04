@@ -6,21 +6,18 @@ using System.Threading.Tasks;
 
 namespace COMP123_Lesson04_Part2
 {
-    class Hero
+    //Hero subclass or character super class
+    class Hero:Character
     {
         //creat private properties+++++++++++++++++++++++++++++++++
         private bool bravery = true;
-        private int health;
-        private int smarts;
-        private string gender;
+   
 
 
         //constructor++++++++++++++++++++++++++++++++++++++++++++
-        public Hero(int health, int smarts, string gender)
+        public Hero(string name,int health, int smarts, string gender):base(name,health,smarts,gender)
         {
-            this.health = health;
-            this.smarts = smarts;
-            this.gender = gender;
+           
         }
 
         //public methods
